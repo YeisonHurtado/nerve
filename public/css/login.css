@@ -4,5 +4,19 @@ div.login { margin: auto; padding: 20px; width: 500px; background: transparent; 
 .input-nerve:focus { outline-style: auto; outline-color:#CC00FF; outline-width: 15px;  border-radius: 4px;  }
 .input-nerve-group { position: relative; color: rgba(79, 10, 110, 0.953); }
 .input-nerve-group input { padding-left: 30px; }
-.input-nerve-group i { position: absolute; top: 15px; left: 10px;;}
+.input-nerve-group i { position: absolute; top: 15px; left: 10px;}
 button#submit { background: transparent; border-width: 3px;   color: rgb(174, 175, 179); border-color: #9900FF;}
+span.sign-up { width: 100%; display: flex; justify-content: center; }
+span.sign-up a { color: rgba(230, 216, 21, 0.953); }
+
+@media (max-width: 540px) {
+    div.login { width: 80%;}
+}
+
+@media (max-width: 400px) {
+    div.login { width: 95%; }
+    div.login label { font-size: 15px; }
+    .input-nerve { padding: 4px; font-size: 15px; }
+    .input-nerve-group i { top: 9px; }
+    button#submit { padding: 5px; font-size: 15px; }
+}

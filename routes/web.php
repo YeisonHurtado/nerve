@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('main.nerve');
 });
 
+Route::get('signup','SignupController@index')->name('signup');
+
 Route::get('/prueba',function(){
     return view('prueba');
 });

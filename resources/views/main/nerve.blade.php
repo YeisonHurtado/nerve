@@ -48,8 +48,15 @@
 
     a.link:hover{
         transform: scale(1.1);
-        transition: ease .3s all;
+        transition: all ease .3s;
         text-decoration: none;
+    }
+
+    @media (max-width: 765px) {
+        div.name_page span{
+            height: initial;
+            font-size: 100px;
+        }
     }
 </style>
 <div class="name_page">

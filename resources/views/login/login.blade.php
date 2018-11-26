@@ -30,5 +30,8 @@
                 <button type="button" id="submit" class="btn btn-block">Log in</button>
             </div>
         </form>
+        <span class="sign-up">
+            <a href="{{route('signup')}}" class="">Sign Up</a>
+        </span>
     </div>
 @endsection
